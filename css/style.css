@@ -255,14 +255,15 @@ hr {
   background-size: cover;
   margin-bottom: 3rem;
   text-align: center;
-  width: 1000px; }
+  max-width: 1200px; }
 
 .logo {
   width: 250px;
   padding: 1.5rem;
   float: left; }
 
-.instructions {
+.btn-instructions {
+  cursor: pointer;
   padding: 1.5rem;
   float: right;
   width: 130px; }
@@ -291,5 +292,32 @@ hr {
 .color-options {
   border-top: 2px solid #000;
   padding-top: 3rem; }
+
+.opacity {
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 11; }
+
+.modal-instructions {
+  display: none;
+  height: 100%;
+  left: 50%;
+  position: fixed;
+  overflow: auto;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 12; }
+
+.instructions {
+  background-color: #FFF;
+  border: 3px solid #2d67b1;
+  margin-top: 40%;
+  padding: 10%;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

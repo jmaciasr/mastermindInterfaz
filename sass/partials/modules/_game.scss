@@ -5,9 +5,9 @@
 }
 
 .table-game {
-	margin: 0 auto;
-	width: 60%;
-	padding: 0 0 0 $space-x-large;
+	margin: 0 auto 30px auto;
+	width: 32%;
+	padding: 0;
 }
 
 .color-options {
@@ -26,4 +26,8 @@
 .color-options {
 	border-top: 2px solid #000;	
 	padding-top: $space-medium;	
+}
+
+.clue {
+	display: block;
 }

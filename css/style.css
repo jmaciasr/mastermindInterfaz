@@ -278,9 +278,9 @@ hr {
     clear: both; }
 
 .table-game {
-  margin: 0 auto;
-  width: 60%;
-  padding: 0 0 0 7.5rem; }
+  margin: 0 auto 30px auto;
+  width: 32%;
+  padding: 0; }
 
 .empty-pattern {
   width: 50px; }
@@ -292,6 +292,9 @@ hr {
 .color-options {
   border-top: 2px solid #000;
   padding-top: 3rem; }
+
+.clue {
+  display: block; }
 
 .opacity {
   background: rgba(0, 0, 0, 0.7);
